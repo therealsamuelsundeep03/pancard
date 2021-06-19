@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Pan card Forum</title>
+    <style>
+        table,td,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table,t{
+            margin:3px,1px,3px,1px
+        }
+
+    </style>
+    
+</head>
+<body>
+    <!first div>
+    <div  style="background-color: lightgoldenrodyellow;">
+        <!heading>
+        <div style="background-color: brown;color: white;text-align: center;">
+           <h4 style="display: inline;">Request For New Pan Card Or/And Changes Or Correction in PAN Data</h4><br>
+           <p style="font-style:italic;display:inline">Fields marked with <span style="color: red;">*</span> asterisk are mandatory.To avoid mistakes(s).please refer <span style="color: orange;"><u>guidelines</u></span> and <span style="color: orange;"><u>instructions</u></span>. </p>
+        </div>
+        
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+               <!rwc>
+               <tr>
+                   <td></td>
+                   <td colspan="2">
+                       <span style="color: red;">*</span><p style="display: inline;">Whether Citizen Of India</p>
+                       <div style="display: inline;">
+                           <label for = "y" style="padding-left: 60px;">Yes</label>
+                           <input type="radio" id="y">
+                           <label for = "y" style="padding-left: 60px;">No</label>
+                           <input type="radio" id="y">
+                        </div>
+                    
+                    </td>
+                </tr>
+
+                <!pan>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <span style="color: red;">*</span>
+                        <div style="display: inline;">
+                            <label for = "b">Permanent Account Number(PAN)</label>
+                           <input type="text" id="b">
+                        </div>
+                    </td>
+                </tr>
+
+                <!name>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td colspan="2">
+                        <span style="color: red;">*</span><span>1.Name</span>
+                    </td>
+                </tr>
+                
+                <!title>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;">Title</p>
+                        <div style="display: inline;">
+                            <label for = "sh" style="padding-left: 40px;">Shri/Mr</label>
+                            <input type="radio" id="sh">
+                            <label for = "sm" style="padding-left: 30px;">Smt./Mrs.</label>
+                            <input type="radio" id="sm">
+                            <label for = "ku" style="padding-left: 30px;">Kumari/Ms.</label>
+                            <input type="radio" id="ku">
+                        </div>
+                    </td>
+                </tr>
+                
+                <!ls>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                            <label for = "ls" style="padding-left: 20px;">Last Name/Surname</label>
+                            <label for = "fs" style="padding-left: 40px;">First Name</label>
+                            <label for = "ms" style="padding-left: 100px;">Middle Name</label><br>
+                            <input type="text" id="ms"> 
+                            <input type="text" id="ls">
+                            <input type="text" id="fs">
+
+                    </td>
+                </tr>
+
+                <!name as>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                       <span style="color:red;">*</span><span>Name as you would like it printed on the card<span style="color: blue;">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc are not allowed)</span></span>
+                    </td>
+                </tr>
+
+                <!box>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for = "b"></label>
+                        <input type="text">
+
+                    </td>
+                </tr>
+                
+                <!details>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <span>Details of Parents</span><span style="color: blue;">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc are not allowed)</span>
+                    </td>
+                </tr>
+                <!rwm>
+                <tr>
+                    <td></td>
+                    <td >
+                        <span>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only</span> 
+                    </td>
+                    <td colspan="2" style="width: 55%;">
+                        <label for = "y" style="padding-left: 60px;">Yes</label>
+                        <input type="radio" id="y">
+                        <label for = "y" style="padding-left: 60px;">No</label>
+                        <input type="radio" id="y">
+                    </td>
+                </tr>
+
+                <!father>
+                <tr>
+                    <td><input type="checkbox"</td>
+                    <td colspan="2">
+                        <span style="color:red">*</span><span>Father's Name</span><span style="color: blue;">(Mandatory field.Even married women should give father's name only.)</span>
+                    </td>
+                </tr>
+
+                <!ls>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for = "ls" style="padding-left: 20px;">Last Name/Surname</label>
+                        <label for = "fs" style="padding-left: 40px;">First Name</label>
+                        <label for = "ms" style="padding-left: 100px;">Middle Name</label><br>
+                        <input type="text" id="ms"> 
+                        <input type="text" id="ls">
+                        <input type="text" id="fs">
+
+                    </td>
+                </tr>
+
+                <!mother>
+                <tr>
+                    <td><input type="checkbox"</td>
+                    <td colspan="2">
+                       <span style="color: blue;">Mother's Name(This is optional.)</span>
+                    </td>
+                </tr>
+
+                <!ls>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for = "ls" style="padding-left: 20px;">Last Name/Surname</label>
+                        <label for = "fs" style="padding-left: 40px;">First Name</label>
+                        <label for = "ms" style="padding-left: 100px;">Middle Name</label><br>
+                        <input type="text" id="ms"> 
+                        <input type="text" id="ls">
+                        <input type="text" id="fs">
+
+                    </td>
+                </tr>
+
+                <!sp>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span style="color: red;">*</span><span>4.Select Parent name which is to be printed on the card</span><br>
+                        <span style="color: blue;">(In case no option is provided than PAN card will be issued with father's name)</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "fn">Father Name</label>
+                        <input type="radio" id="y">
+                        <label for = "mn" style="padding-left: 20px;">Mother Name</label>
+                        <input type="radio" id="mn">
+                    </td>
+                </tr>
+
+                <!date>
+                <tr>
+                    <td><input type="checkbox"></td>
+                        <td>
+                           <span style="color: red;">*</span><span>5.Date of Birth/Incorporation/Agreement/Partnership</span><br>or trust Deed/Formation of body of Individuals/</span><br><span>Association of Persons</span>
+                        </td>
+                        <td colspan="3">
+                           <label for = "d" style="padding: 5px;">DD</label>
+                           <label for = "d" style="padding-left:15px ;">MM</label>
+                           <label for = "d" style="padding-left:20px;">YYYY</label><br>
+                           <select id="d">
+                               <option value="d">DD</option>
+                           </select>
+                           <select id="d">
+                            <option value="d">MM</option>
+                        </select>
+                        <input type="text" size="5">
+                        </td>
+                    
+                </tr>
+
+                <!gen>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span style="color: red;">*</span><span>Gender</span>
+                    </td>
+                    <td colspan="3">
+                       <label for = "m">Male</label>
+                       <input type="radio" id = "m">
+                       <label for = "f" style="padding-left: 20px;">Female</label>
+                       <input type="radio" id = "f">
+                       <label for = "t" style="padding-left: 20px;">TransGender</label>
+                       <input type="radio" id = "t">
+                       
+                    </td>
+                </tr>
+
+                <!pic>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td  colspan="2">
+                        <span>7.Photo Mismatch</span>
+                    </td>
+                </tr>
+            
+                <!sign>
+                <tr>
+                    <td ><input type="checkbox"></td>
+                    <td colspan="2">
+                        <span>8.Signature Mismatch</span>
+                    </td>
+                </tr>
+
+                <!address>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                         <span style ="color: red";>*</span><span>9.Adress for Communication</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "r">Residential</label>
+                        <input type="radio" id = "r">
+                        <label for = "o" style="padding-left: 20px;">Office</label>
+                        <input type="radio" id = "o">
+                    </td>
+                </tr>
+
+                <!on>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span>Office Name</span><span style="font-style: italic;font-weight: lighter;">(to be filed only in case of office address)</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+                
+                <!flat>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Flat/Door/Block No.</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!nop>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Name of premises/Building/Village</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!road>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Road/Street/Lane/Post Office</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!area>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Area/Locality/Taluka/Sub-Divison</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!town>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Town/City/District</span>
+                    </td>
+                    <td colspan="3">
+                       <label for = "b"></label>
+                       <input type="text">
+                    </td>
+                </tr>
+
+                <!state>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>State/Union Territory</span>
+                    </td>
+                    <td colspan="3">
+                        <label for="s"></label>
+                        <select name="s"  style="width: 170px;background-color:lightgray;" id="s">
+                            <option value="s">-- Please Select --</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!pin>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>PIN</span><span style="font-style: italic;font-weight: lighter;">(Indicating PIN is mandatory)</span>
+                    </td>
+                    <td>
+                        <label for = "b"></label>
+                        <input type="text" style="width: 100px;" id="b">
+                    </td>
+                </tr>
+
+                <!country>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Country</span>
+                    </td>
+                    <td colspan="3">
+                        <label for="s"></label>
+                        <select name="s"  style="width: 400px;background-color: lightgray;" id="s">
+                            <option value="s">-- Please Select --</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!zip>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>Zip</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" style="width: 100px;background: lightgray;" id = "b">
+                    </td>
+                </tr>
+
+                <!f>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <span>10.If you desire to update your address,give required details & <u>submit proof of other address also</u>.</span>
+                    </td>
+                </tr>
+
+                <!tele>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span style="color: red;">*</span><span>11.Telephone No.</span><br>
+                        <span style="font-weight: lighter;">(country code is compulsory)</span>
+                    </td>
+                    <td colspan="3">
+                           <label for = "c">Country code(ISD code)</label><br>
+                              <select id="c" style="width: 500px;background-color: lightgray;">
+                                   <option value="c">-- Please select --</option>
+                               </select>
+                            <table style="width: 100%;">
+                            <tr>
+                               <td>
+                                   <input type="radio" id="m">
+                                   <label for = "m" >Mobile No.</label>
+                               </td>
+                               <td>
+                                   <input type="radio" id="t">
+                                   <label for = "m">Telephone No.</label>
+                               </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                <label for="b">Area/STD Code</label><br>
+                                <input type="text" size="10" id="b">
+                                </td>
+                                <td>
+                                    <label for="b">Telephone No./Mobile No.</label><br>
+                                    <input type="text" size="15" id="b">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                 </tr>
+                       
+                 <!email>
+                 <tr>
+                     <td></td>
+                     <td>
+                         <span>E-mail ID</span>
+                     </td>
+                     <td colspan="3">
+                         <label for = "b"></label>
+                         <input type="text" style="width: 270px;" id = "b">
+                     </td>
+                 </tr>
+
+                 <!ic>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span style="font-weight: lighter;">In case of a citizen of India,then</span>
+                    </td>
+                    <td colspan="2">
+                        <label for = "a">AADHAR</label>
+                        <input type="radio" id = "a">
+                        <label for = "e" style="padding-left: 20px;">EID</label>
+                        <input type="radio" id = "e">
+                    </td>
+                </tr>
+
+                <!aadhar>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span style="color: red;">*</span><span>12.AADHAR number</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = b></label>
+                        <input type="text" id="b"><br>
+                        <span style="color: darkblue;">In case AADHAR number is provided,</span><br>
+                        <span style="color: darkblue;">then prrof of aadhar along with supporting documents is to be submitted to NSDL</span>
+                    </td>
+                </tr>
+
+                <!ic>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span style="color: red;">*</span><span style="font-weight: lighter;">Name as per AADHAR letter</span><br>
+                        <span style="font-weight: lighter;">or</span><br>
+                        <span style="font-weight: lighter;">as per the enrollment ID of Aadhar application form</span>
+                    </td>
+                    <td colspan="3">
+                        <label for = b></label>
+                        <input type="text" id="b"><br>
+                    </td>
+                </tr>
+
+                <!gst>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span>13.GSTN  </span>
+                    </td>
+                    <td colspan="3">
+                        <label for = "b"></label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!mention>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td colspan="2">
+                        <span>Mention other Permanent Account Numbers (PANs) if any, Inadvertently alloted to you.<u>Submit proof of surrendered PAN(s) along with the application</u></span>
+                    </td>
+                </tr>
+
+                <!pan>
+                <tr>
+                    <td></td>
+                    <td>
+                         <label for = "b">PAN1</label>
+                        <input type="text" id = "b">
+                    </td>
+                    <td colspan="3">
+                        <label for = "b">PAN2</label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!pan>
+                <tr>
+                    <td></td>
+                    <td>
+                         <label for = "b">PAN3<label>
+                        <input type="text" id = "b">
+                    </td>
+                    <td colspan="3">
+                        <label for = "b">PAN4</label>
+                        <input type="text" id = "b">
+                    </td>
+                </tr>
+
+                <!mention>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <span>15.verification</span>
+                    </td>
+                </tr>
+
+                <!i/we>
+                <tr>
+                    <td></td>
+                    <td colspan="2"  style="font-weight: lighter;">
+                        <span>I/We have enclosed</span>
+                        <span style="padding-left: 30px;"><input type = "text" style="width:500px;;">,the applicant,in the capacity of</span>
+                        <div style="display: inline;">
+                            <select id="c" style="width: 200px;background-color: lightgray;">
+                                <option value="c">-- Please select --</option>
+                            </select>
+                        </div>
+                        <span>do hereby declare that what is stated above is true to</span><br>
+                        <span>the best of my information and belief</span><br>
+                        <span>I have enclosed <input type="text" style="width: 50px;" > (number of documents) in support of proposed changes/corrections.</span>
+                    </td>
+                </tr>
+
+                <!place>
+                <tr>
+                    <td></td>
+                    <td colspan="2" style="font-weight: lighter;">
+                        <label for = "b">Place</label>
+                        <input type="text">
+                    </td>
+                </tr>
+
+                <!verified>
+                <tr>
+                    <td></td>
+                    <td colspan="2" style="font-weight: lighter;">
+                        <span style="padding-left:115px ;">DD MM YYYY</span><br>
+                        <span>Verified today,the  18 -04 -2020</span>
+                    </td>
+                </tr>
+
+                <!i/we>
+                <tr>
+                    <td></td>
+                    <td colspan="2" style="font-weight: lighter;">
+                        <span>I/We have enclosed</span><br>
+                        <span>
+                            <select id = "p" style="width: 1100px; ;background-color: lightgray;">
+                                <option value="p">-- Please Select --</option>
+                            </select><span style="padding-left: 10px;">as proof</span>
+                        </span><br>
+                        <span>of identity,</span>
+                        <span style="padding-left: 30px;">
+                            <select id = "p" style="width: 750px;background-color: lightgray;">
+                                <option value="p">-- Please Select --</option>
+                            </select><span style="padding-left: 10px;">as proof of adress,</span>
+                        </span><br>
+                        <span>
+                            <select id = "p" style="width: 950px; ;background-color: lightgray;">
+                                <option value="p">-- Please Select --</option>
+                            </select><span style="padding-left: 10px;">as proof of date of birth</span>
+                        </span><br>
+                        <span>and</span><span>
+                            <select id = "p" style="width: 350px;background-color: lightgray;padding-left: 1px;">
+                                <option value="p">-- Please Select --</option>
+                            </select><span style="padding-left: 10px;">as proof of pan alloted</span>
+                        </span>
+                             </td>
+                </tr>
+
+                <!wether>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                       <span>wether you wish to have?</span>
+                       <div style="display: inline;font-weight: lighter;">
+                        <input type="radio" style="padding-left: 40px;" id="p">
+                         <label for = "p">Physical PAN card & e-PAN card</label>
+                         <input type="radio" style="padding-left: 30px;" id="p">  
+                         <label for = "o">Only e-PAN card</label>
+                          
+                        </div>
+                        <div style="display: inline;padding-left: 20px;">
+                            <span><u>Fees Applicable</u></span>
+                        </div>   
+                    </td>
+                </tr>
+
+                <!od>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                    <span> Other Details</span>
+                    </td>
+                </tr>
+
+                <!dao>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                    <span>1.Depository Account Details</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for="dp">DP ID:</label>
+                        <input type="text" id = "dp">
+                        <label for="ci" style="padding-left: 10px;">Client ID:</label>
+                        <input type="text" id = "ci">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2">2.Payment details</td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio"></td>
+                    <td colspan="2"><span>Online Payment</span></td>
+                </tr>
+            </table>
+        </div>
+        <span>For Paperless Pan Application</span>
+        <span>
+            <label for = "y">Yes</label>
+            <input type="radio" id="y">
+            <label for = "n">No</label>
+            <input type="radio" id="n">
+        </span><br>
+        <span>
+            <input type="radio" id="d">
+            <label for = "d">DSC</label>
+            <select id="d" style="background-color: lightgray;width: 220px;">
+               <option value = "d"> --Select-- </option>
+            </select>
+            <h17 style="color:brown; padding-left: 40px;display: inline;"><u>Guidelines for DSC user</u></h17>
+        </span><br>    
+        <p style="display:inline;">Upload Photo</p>
+        <p style="padding-left: 450px;display: inline;"><input type="file"></p>
+        <p style="display: inline;padding-left: 150px;"> Upload Signature</p>
+        <p style="padding-left: 50px;display: inline;"><input type="file"></p><br>
+                
+        <p style="display:inline;">Upload Document</p>
+        <p style="padding-top: 50px;display: inline;padding-left: 421px;"><input type="file"></p>
+        <p style="display: inline;padding-left: 150px;"> Upload Signature</p>
+        <p style="padding-left: 50px;display: inline;"><input type="file"></p><p style="display: inline;padding-left:80px ;">OR</p><br>
+
+        <select for = "d" style="background-color: lightgray;">
+            <option value="d">Fetch From DigiLocker</option>
+        </select><br>
+    
+        <p style="display: inline-block;">ALREADY UPLOADED PHOTO:</p>
+        <label for = "b" style="display:inline-block;width: 286px;"></label>
+        <input type="text" style="width: 200px; display: inline;height: 16px;"><br>
+
+        <p style="display: inline-block;">ALREADY UPLOADED SIGNATURE:</p>
+        <label for = "b" style="display:inline-block;width: 250px;"></label>
+        <input type="text" style="width: 200px; display: inline;padding-top: 5px;"><br>
+
+         <p style="display: inline-block;">ALREADY UPLOADED DOCUMENTS:</p>
+         <label for = "b" style="display:inline-block;width: 240px;"></label>
+         <input type="text" style="padding-bottom: 70px ; display: inline;display: inline-block;width:250px"><br>
+
+         <label for="s" style="display: inline-block;width:600px;"></label>
+         <input type="submit" style="background-color: lightgray;">
+    </div>
+</div>
+
+</body>
+</html> 
